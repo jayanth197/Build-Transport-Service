@@ -1,0 +1,14 @@
+package com.cintap.transport.repository.edifact.desadv;
+
+
+
+import com.cintap.transport.entity.edifact.desadv.EdifactDesadvInfo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+
+@Repository
+public interface EdifactDesadvInfoRepository extends JpaRepository<EdifactDesadvInfo, Integer>{
+
+}
